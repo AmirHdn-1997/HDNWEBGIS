@@ -21,6 +21,21 @@
             padding: 0;
             margin: 0;
         }
+            
+        table{
+       border-collapse: collapse;
+            }
+
+        table , th , td {
+        border: 1px solid;
+        padding: 5px;
+        text-align: center;
+        font-family: B Nazanin;
+        font-size: 14px;
+        direction: rtl;
+            }    
+            
+                       
         a.button {
 			display: inline-block;
 			padding-top: 10px;
@@ -240,35 +255,35 @@
         function pop_Hozeh0701_1403_2(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">VALUE</th>\
+                        <th scope="row" style="text-align: center;">حجم کار هر مامور</th>\
                         <td>' + (feature.properties['VALUE'] !== null ? autolinker.link(feature.properties['VALUE'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">آدرس</th>\
+                        <th scope="row" style="text-align: center;">آدرس</th>\
                         <td>' + (feature.properties['آدرس'] !== null ? autolinker.link(feature.properties['آدرس'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">مامور</th>\
+                        <th scope="row" style="text-align: center;">شماره مامور</th>\
                         <td>' + (feature.properties['مامور'] !== null ? autolinker.link(feature.properties['مامور'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">ملاحظ</th>\
+                        <th scope="row" style="text-align: center;">ملاحظات</th>\
                         <td>' + (feature.properties['ملاحظ'] !== null ? autolinker.link(feature.properties['ملاحظ'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">گروه</th>\
+                        <th scope="row" style="text-align: center;">شماره گروه</th>\
                         <td>' + (feature.properties['گروه'] !== null ? autolinker.link(feature.properties['گروه'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">حوزه</th>\
+                        <th scope="row" style="text-align: center;">شماره حوزه</th>\
                         <td>' + (feature.properties['حوزه'] !== null ? autolinker.link(feature.properties['حوزه'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">شهر</th>\
+                        <th scope="row" style="text-align: center;">نام شهرستان</th>\
                         <td>' + (feature.properties['شهر'] !== null ? autolinker.link(feature.properties['شهر'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">دهستا</th>\
+                        <th scope="row" style="text-align: center;">نام دهستان</th>\
                         <td>' + (feature.properties['دهستا'] !== null ? autolinker.link(feature.properties['دهستا'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -450,35 +465,35 @@
         function pop_Hozeh1403_1297_3(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">ADRES1403</th>\
+                        <th scope="row" style="text-align: center;">آدرس</th>\
                         <td>' + (feature.properties['ADRES1403'] !== null ? autolinker.link(feature.properties['ADRES1403'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">VALUE</th>\
+                        <th scope="row" style="text-align: center;">حجم کار هر مامور</th>\
                         <td>' + (feature.properties['VALUE'] !== null ? autolinker.link(feature.properties['VALUE'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">آدرس</th>\
+                        <th scope="row" style="text-align: center;">آدرس</th>\
                         <td>' + (feature.properties['آدرس'] !== null ? autolinker.link(feature.properties['آدرس'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">حوزه</th>\
+                        <th scope="row" style="text-align: center;">شماره حوزه</th>\
                         <td>' + (feature.properties['حوزه'] !== null ? autolinker.link(feature.properties['حوزه'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">گروه</th>\
+                        <th scope="row" style="text-align: center;">شماره گروه</th>\
                         <td>' + (feature.properties['گروه'] !== null ? autolinker.link(feature.properties['گروه'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">ملاحظ</th>\
+                        <th scope="row" style="text-align: center;">ملاحظات</th>\
                         <td>' + (feature.properties['ملاحظ'] !== null ? autolinker.link(feature.properties['ملاحظ'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">مامور</th>\
+                        <th scope="row" style="text-align: center;">شماره مامور</th>\
                         <td>' + (feature.properties['مامور'] !== null ? autolinker.link(feature.properties['مامور'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">شهر</th>\
+                        <th scope="row" style="text-align: center;">نام شهر</th>\
                         <td>' + (feature.properties['شهر'] !== null ? autolinker.link(feature.properties['شهر'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -570,31 +585,31 @@
         function pop_Hozeh1403_2198_4(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">ADRES1403</th>\
+                        <th scope="row" style="text-align: center;">آدرس</th>\
                         <td>' + (feature.properties['ADRES1403'] !== null ? autolinker.link(feature.properties['ADRES1403'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">VALUE</th>\
+                        <th scope="row" style="text-align: center;">حجم کار هر مامور</th>\
                         <td>' + (feature.properties['VALUE'] !== null ? autolinker.link(feature.properties['VALUE'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">شهر</th>\
+                        <th scope="row" style="text-align: center;">نام شهر</th>\
                         <td>' + (feature.properties['شهر'] !== null ? autolinker.link(feature.properties['شهر'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">حوزه</th>\
+                        <th scope="row" style="text-align: center;">شماره حوزه</th>\
                         <td>' + (feature.properties['حوزه'] !== null ? autolinker.link(feature.properties['حوزه'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">گروه</th>\
+                        <th scope="row" style="text-align: center;">شماره گروه</th>\
                         <td>' + (feature.properties['گروه'] !== null ? autolinker.link(feature.properties['گروه'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">مامور</th>\
+                        <th scope="row" style="text-align: center;">شماره مامور</th>\
                         <td>' + (feature.properties['مامور'] !== null ? autolinker.link(feature.properties['مامور'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">ملاحظ</th>\
+                        <th scope="row" style="text-align: center;">ملاحظات</th>\
                         <td>' + (feature.properties['ملاحظ'] !== null ? autolinker.link(feature.properties['ملاحظ'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -671,31 +686,31 @@
         function pop_Hozeh1403_2335_5(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">VALUE</th>\
+                        <th scope="row" style="text-align: center;">حجم کار هر مامور</th>\
                         <td>' + (feature.properties['VALUE'] !== null ? autolinker.link(feature.properties['VALUE'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">آدرس</th>\
+                        <th scope="row" style="text-align: center;">آدرس</th>\
                         <td>' + (feature.properties['آدرس'] !== null ? autolinker.link(feature.properties['آدرس'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">گروه</th>\
+                        <th scope="row" style="text-align: center;">شماره گروه</th>\
                         <td>' + (feature.properties['گروه'] !== null ? autolinker.link(feature.properties['گروه'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">حوزه</th>\
+                        <th scope="row" style="text-align: center;">شماره حوزه</th>\
                         <td>' + (feature.properties['حوزه'] !== null ? autolinker.link(feature.properties['حوزه'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">ملاحظ</th>\
+                        <th scope="row" style="text-align: center;">ملاحظات</th>\
                         <td>' + (feature.properties['ملاحظ'] !== null ? autolinker.link(feature.properties['ملاحظ'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">مامور</th>\
+                        <th scope="row" style="text-align: center;">شماره مامور</th>\
                         <td>' + (feature.properties['مامور'] !== null ? autolinker.link(feature.properties['مامور'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">شهر</th>\
+                        <th scope="row" style="text-align: center;">نام شهر</th>\
                         <td>' + (feature.properties['شهر'] !== null ? autolinker.link(feature.properties['شهر'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -772,31 +787,31 @@
         function pop_Hozeh1403_2597_6(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">VALUE</th>\
+                        <th scope="row" style="text-align: center;">حجم کار هر مامور</th>\
                         <td>' + (feature.properties['VALUE'] !== null ? autolinker.link(feature.properties['VALUE'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">آدرس</th>\
+                        <th scope="row" style="text-align: center;">آدرس</th>\
                         <td>' + (feature.properties['آدرس'] !== null ? autolinker.link(feature.properties['آدرس'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">حوزه</th>\
+                        <th scope="row" style="text-align: center;">شماره حوزه</th>\
                         <td>' + (feature.properties['حوزه'] !== null ? autolinker.link(feature.properties['حوزه'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">گروه</th>\
+                        <th scope="row" style="text-align: center;">شماره گروه</th>\
                         <td>' + (feature.properties['گروه'] !== null ? autolinker.link(feature.properties['گروه'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">مامور</th>\
+                        <th scope="row" style="text-align: center;">شماره مامور</th>\
                         <td>' + (feature.properties['مامور'] !== null ? autolinker.link(feature.properties['مامور'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">ملاحظ</th>\
+                        <th scope="row" style="text-align: center;">ملاحظات</th>\
                         <td>' + (feature.properties['ملاحظ'] !== null ? autolinker.link(feature.properties['ملاحظ'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">شهر</th>\
+                        <th scope="row" style="text-align: center;">نام شهر</th>\
                         <td>' + (feature.properties['شهر'] !== null ? autolinker.link(feature.properties['شهر'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -864,7 +879,7 @@
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
         .className += ' fa fa-search';
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
-        .title += 'Search for a place';
+        .title += 'لطفا نام دهستان خود را وارد نمایید';
         var baseMaps = {};
         var overlaysTree = [
             {label: 'Hozeh1403_2597<br /><table><tr><td style="text-align: center;"><img src="legend/Hozeh1403_2597_6_0010.png" /></td><td>001</td></tr><tr><td style="text-align: center;"><img src="legend/Hozeh1403_2597_6_1.png" /></td><td></td></tr></table>', layer: layer_Hozeh1403_2597_6},
